@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Beer Generator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <script defer type="text/javascript" src="index.js"></script>
+</head>
+<body>
+  <header>
+    <h3>Beer Generator 3000</h3>
+  </header>
+  <!-- Beer Details -->
+  <div id="drink-detail">
+    <img class="detail-image" src="./assets/Beer IMG.jpg" alt="Insert Image Here" />
+    <h2 class="name">Beer Name</h2>
+    <h3 class="tagline">Tagline</h3>
+ 
+  </div>
+  <h3>ABV:</h3>
+  <p>
+    <span id='ABV-display'>ABV</span>
+  </p>
+  <h3>Description:</h3>
+  <p id='description-display'>
+    Insert description here
+  </p>
+  <!-- New Beer Form -->
+  <div class="container">
+    <form id="new-drink">
+      <h4>New Beer Form</h4>
+      <label for="drink-name">Drink Name: </label>
+      <input type="text" name="drink-name" id="new-drink-name" />
+      <label for="tagline-info">Tagline: </label>
+      <input type="text" name="tagline-info" id="new-tagline" />
+      <label for="image">Drink Image: </label>
+      <input type="text" name="image" id="new-image" />
+      <label for="abv">ABV: </label>
+      <input type="text" name="abv" id="new-abv" />
+      <label for="new-description">Description: </label>
+      <textarea name="new-description" id="new-description"></textarea>
+      <input type="submit" value="Create" />
+    </form>
+  </div>
+  <button id="new-beer-btn">Add A Custom Beer!</button>
+   <!-- drinks Menu -->
+ <div id="beer-menu" class="beer-image">
+  <!-- drinks Images Here -->
+</div>
+</body>
+
+</html>
