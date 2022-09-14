@@ -1,6 +1,7 @@
 const beerList = document.querySelector("#beer-menu");
+const randomPage = Math.floor(Math.random() * 30) + 1;
 function getBeer(){
-    fetch('https://api.punkapi.com/v2/beers?page=1&per_page=8')
+    fetch(`https://api.punkapi.com/v2/beers?page=${randomPage}&per_page=8`)
     .then((res) => res.json())
     .then((beerArray) => {beerArray.forEach((beer) => {appendBeerList(beer);
     });
