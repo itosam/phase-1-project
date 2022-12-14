@@ -1,5 +1,7 @@
 # BEER GENERATOR 3000
 This is our Phase-1 Project for a one page application
+live site below</br>
+<a>https://itosam.github.io/phase-1-project/</a>
 
 For our Project we decided to work on a one page application that would
 - Allow the user to see a selection of beer
